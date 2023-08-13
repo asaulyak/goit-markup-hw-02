@@ -109,13 +109,14 @@ address a:focus {
 }
 
 .filters-button {
-  color: var(--white);
-  background-color: var(--iris);
+  color: var(--iris);
+  background-color: var(--cloud);
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
   line-height: 1.5;
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
 }
 .filters-button:hover,
 .filters-button:focus {
