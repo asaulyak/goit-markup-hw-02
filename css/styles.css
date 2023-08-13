@@ -141,16 +141,19 @@ address a:focus {
 }
 
 /*Footer*/
-.footer {
+.page-footer {
   background-color: var(--navy-blue);
   color: var(--cloud);
 }
 
-.footer .logo {
+.page-footer .logo {
+  color: var(--iris);
+}
+.page-footer .logo .logo-end {
   color: var(--cloud);
 }
 
-.footer .company-info {
+.page-footer .company-info {
   line-height: 1.5;
   color: var(--cloud);
   letter-spacing: 0.02em;
