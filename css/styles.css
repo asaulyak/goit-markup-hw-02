@@ -1,0 +1,88 @@
+/*Variables*/
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --corn-flower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-overlay: rgba(46, 47, 66, 40);
+  --grey: rgba(46, 47, 66, 70);
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+
+/*Root styles*/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+  color: var(--slate);
+  background-color: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: var(--navy-blue);
+}
+
+ul {
+  list-style: none;
+}
+
+/*Logo*/
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.logo-start {
+  color: var(--iris);
+}
+
+/*Header*/
+nav {
+  font-weight: 500;
+}
+
+address {
+  font-style: normal;
+}
+
+/*Main*/
+
+/*Section filters*/
+button {
+  color: var(--iris);
+  background-color: var(--cloud);
+}
+
+button.active {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.project-cards h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--navy-blue);
+}
+
+.project-cards p {
+  font-size: 16px;
+}
+
+/*Footer*/
+footer {
+  background-color: var(--navy-blue);
+  color: var(--cloud);
+}
+
+footer .logo {
+  color: var(--cloud)
+}
