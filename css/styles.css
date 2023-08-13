@@ -29,6 +29,22 @@ a {
   color: var(--navy-blue);
 }
 
+a:hover,
+a:focus {
+  color: var(--ocean);
+}
+
+button {
+  color: var(--white);
+  background-color: var(--iris);
+}
+
+button:hover,
+button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
 ul {
   list-style: none;
 }
@@ -54,19 +70,29 @@ address {
   font-style: normal;
 }
 
+address a {
+  color: var(--slate);
+}
+
+address a:hover,
+address a:focus {
+  color: var(--ocean);
+}
+
 /*Main*/
 
-/*Section filters*/
-button {
+/*Filters*/
+.filters button {
   color: var(--iris);
   background-color: var(--cloud);
 }
-
-button.active {
+.filters button:hover,
+.filters button:focus {
   color: var(--white);
   background-color: var(--ocean);
 }
 
+/*Section filters*/
 .project-cards h3 {
   font-size: 20px;
   font-weight: 500;
@@ -84,5 +110,5 @@ footer {
 }
 
 footer .logo {
-  color: var(--cloud)
+  color: var(--cloud);
 }
