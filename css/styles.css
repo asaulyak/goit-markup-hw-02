@@ -93,10 +93,8 @@ address a:focus {
   color: var(--ocean);
 }
 
-/*Main*/
-
-/*Filters*/
-.filters {
+/*Sections*/
+.section-portfolio {
   background-color: var(--navy-blue);
 }
 
@@ -138,6 +136,18 @@ address a:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+
+.section-hero {
+  background-color: var(--navy-blue);
+}
+
+.hero-header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
 }
 
 /*Footer*/
