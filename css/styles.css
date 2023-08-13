@@ -24,13 +24,13 @@ body {
   background-color: var(--white);
 }
 
-a {
+.link {
   text-decoration: none;
   color: var(--navy-blue);
 }
 
-a:hover,
-a:focus {
+.link:hover,
+.link:focus {
   color: var(--ocean);
 }
 
@@ -45,7 +45,7 @@ button:focus {
   background-color: var(--ocean);
 }
 
-ul {
+.list {
   list-style: none;
 }
 
@@ -54,24 +54,38 @@ ul {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--iris);
   text-transform: uppercase;
 }
 
-.logo-start {
-  color: var(--iris);
+.logo-end {
+  color: var(--navy-blue);
 }
 
 /*Header*/
-nav {
+.navigation-item {
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 
-address {
+.navigation-item:hover,
+.navigation-item:focus {
+  color: var(--ocean);
+}
+
+.header-address {
   font-style: normal;
 }
 
-address a {
+.header-address-item {
   color: var(--slate);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 address a:hover,
@@ -82,33 +96,61 @@ address a:focus {
 /*Main*/
 
 /*Filters*/
-.filters button {
-  color: var(--iris);
-  background-color: var(--cloud);
+.filters {
+  background-color: var(--navy-blue);
 }
-.filters button:hover,
-.filters button:focus {
+
+.filters-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.filters-button {
+  color: var(--white);
+  background-color: var(--iris);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.filters-button:hover,
+.filters-button:focus {
   color: var(--white);
   background-color: var(--ocean);
 }
 
-/*Section filters*/
-.project-cards h3 {
+/*Projects*/
+.project-header {
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 
-.project-cards p {
+.project-description {
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
 /*Footer*/
-footer {
+.footer {
   background-color: var(--navy-blue);
   color: var(--cloud);
 }
 
-footer .logo {
+.footer .logo {
   color: var(--cloud);
+}
+
+.footer .company-info {
+  line-height: 1.5;
+  color: var(--cloud);
+  letter-spacing: 0.02em;
 }
