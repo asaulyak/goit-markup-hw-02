@@ -233,11 +233,12 @@ address a:focus {
 .page-footer .logo {
   color: var(--iris);
 }
+
 .page-footer .logo .logo-end {
   color: var(--cloud);
 }
 
-.page-footer .company-info {
+.footer-description {
   line-height: 1.5;
   color: var(--cloud);
   letter-spacing: 0.02em;
